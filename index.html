@@ -405,10 +405,10 @@
             <div class="form-group">
                 <p class="subscribe">Subscribe</p>
                 <form class="subscribe-form">
-                    <label for="E-posta">
+                    <label class="subscribe-form-label">
                         <input class="subscribe-input" name="subscribe-input" type="email" placeholder="E-posta">
                     </label>
-                    <button class="button-Subscribe" type="submit">Subscribe <svg class="icon-send" width="24"
+                    <button class="button-subscribe" type="submit">Subscribe <svg class="icon-send" width="24"
                             height="24">
                             <use href="./images/icons.svg#icon-send"></use>
                         </svg></button>
@@ -458,13 +458,18 @@
                     <textarea class="user-comment" name="user-comment" id="user-comment"
                         placeholder="Text input"></textarea>
                 </div>
-                <div class="-form-check">
+                <div class="form-check">
+
+                    <span class="user-privacy-span">
+                        <svg class="icon-checkbox" width="10" height="8">
+                            <use href="./images/icons.svg#icon-checkbox"></use>
+                        </svg>
+                    </span>
                     <input class="visually-hidden" name="user-privacy" type="checkbox" value="true" id="user-privacy">
                     <label class="user-privacy" for="user-privacy">I accept the terms and conditions of
-                        the Privacy
-                        Policy
-                        <span class="user-privacy-span"></span>
+                        the
                         <a class="user-privacy-link" href="">Privacy Policy</a></label>
+
                 </div>
 
                 <button class="send-button">Send</button>
