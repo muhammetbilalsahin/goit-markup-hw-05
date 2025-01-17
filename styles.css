@@ -724,7 +724,7 @@ button {
 .icon-name:hover {
   fill: #4d5ae5;
 }
-.icon-name:focus .user-names {
+.user-names:focus + .icon-name {
   fill: #4d5ae5;
 }
 .comment {
@@ -746,6 +746,9 @@ button {
   border-color: #4d5ae5;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
+.user-comment:focus {
+  border-color: #4d5ae5;
+}
 .form-check {
   margin-bottom: 24px;
 }
@@ -755,6 +758,7 @@ button {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+
 .user-privacy-span {
   width: 16px;
   height: 16px;
@@ -773,6 +777,7 @@ button {
   border: none;
   fill: #f4f4fd;
 }
+
 .user-privacy-link {
   color: #4d5ae5;
 }
