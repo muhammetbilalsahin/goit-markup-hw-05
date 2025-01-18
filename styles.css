@@ -772,7 +772,7 @@ button {
   justify-content: center;
   fill: transparent;
 }
-.checkbox:checked + .user-privacy-span {
+.visually-hidden:checked + .user-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
