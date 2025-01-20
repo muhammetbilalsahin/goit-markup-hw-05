@@ -205,7 +205,8 @@ button {
   background-color: #404bbf;
 }
 .visually-hidden {
-  display: none;
+  position: relative;
+  bottom: 5px;
 }
 .section-peculiarities {
   position: relative;
@@ -772,7 +773,7 @@ button {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden-checked:checked + .user-privacy-span {
+#user-privacy:checked + .user-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
