@@ -204,7 +204,7 @@ button {
 .tittle-button:focus {
   background-color: #404bbf;
 }
-.visually-hidden {
+.visually-hidden-1 {
   display: none;
 }
 .section-peculiarities {
