@@ -204,7 +204,7 @@ button {
 .tittle-button:focus {
   background-color: #404bbf;
 }
-.visually-hidden-1 {
+.visually-hidden {
   display: none;
 }
 .section-peculiarities {
@@ -772,7 +772,7 @@ button {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked + .user-privacy-span {
+.user-privacy:checked + label .user-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
